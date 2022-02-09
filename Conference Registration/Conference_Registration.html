@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Conference_Registration_Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Cabin&family=Cormorant+Garamond:wght@300&family=Kanit:wght@100&family=Merriweather&family=Patua+One&family=Quicksand:wght@500&family=Quintessential&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Conference-Styles.css" type="text/css">
+</head>
+<body>
+<form class="mx-4">
+    <div>
+        <label for="Full name"> Name:</label> <input id="Full name"  class="form-control" type="text" maxlength="70" required>
+        <br>
+        <br>
+        <label for="Password"> Password:</label> <input id="Password" class="form-control" type="text" required>
+        <br>
+        <br>
+        <label for="Email address"> Email:</label> <input id="Email address" class="form-control" type="text"required >
+        <br>
+        <br>
+        <label>T-Shirt size? </label>
+        <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="Date of birth"> DOB:</label> <input id="Date of birth"  class="form-control" type="date"required >
+
+
+        <br>
+        <p class="form-text"> Do you want to receive emails from conference sponsors?</p>
+
+        <div  class="form-check">
+            <input name="answer-method" id="yes" class="form-check-input" type="radio" checked required> <label for="yes" class="form-check-label">Yes</label>
+        </div>
+
+        <div class="form-check">
+            <input name="answer-method" id="no" class="form-check-input" type="radio" checked required> <label for="no" class="form-check-label">No</label>
+        </div>
+
+        <br>
+        <p>Conference Sessions</p>
+        Morning:<input type="checkbox" checked>
+        Evening <input type="checkbox" checked>
+        <br>
+       <p> Special Request </p>
+        <textarea rows="7" cols="70">Default text here </textarea>
+
+        <br>
+        <div>
+            <input type="Submit" class="btn btn-primary mt-3">
+        </div>
+
+    </div>
+
+</form>
+</body>
+</html>

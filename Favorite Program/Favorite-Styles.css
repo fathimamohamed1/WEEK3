@@ -1,0 +1,19 @@
+.jumbotron{
+    background-color: #aba2a2;
+    color: black;
+    text-decoration:underline;
+   font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+body{
+    font-family:'Kanit', sans-serif;
+    background-color:#473f3f ;
+    color: white;
+    font-size: 25px;
+}
+#Code{
+    color: darkseagreen;
+    font-size: 20px;
+}
+
